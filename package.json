@@ -1,21 +1,25 @@
 {
-  "name": "@commitlint/config-conventional",
+  "name": "@insurgentlab/commitlint-config",
+  "description": "Commitlint config for @insurgentlab/conventional-changelog-preset",
   "version": "17.6.5",
-  "description": "Shareable commitlint config enforcing conventional commits",
-  "files": [
-    "index.js"
+  "author": "Mario Nebl <hello@herebecode.com>",
+  "maintainers": [
+    "Pierre Cavin <me@sherlox.io>"
   ],
-  "scripts": {
-    "deps": "dep-check",
-    "pkg": "pkg-check"
+  "license": "MIT",
+  "engines": {
+    "node": ">=v14"
   },
-  "publishConfig": {
-    "access": "public"
+  "dependencies": {
+    "conventional-changelog-conventionalcommits": "^5.0.0"
   },
+  "homepage": "https://github.com/insurgent-lab/commitlint-config#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/conventional-changelog/commitlint.git",
-    "directory": "@commitlint/config-conventional"
+    "url": "https://github.com/insurgent-lab/commitlint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/insurgent-lab/commitlint-config/issues"
   },
   "keywords": [
     "conventional-changelog",
@@ -23,21 +27,10 @@
     "commitlint-config",
     "angular"
   ],
-  "author": "Mario Nebl <hello@herebecode.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/conventional-changelog/commitlint/issues"
-  },
-  "homepage": "https://commitlint.js.org/",
-  "engines": {
-    "node": ">=v14"
-  },
-  "devDependencies": {
-    "@commitlint/lint": "^17.6.5",
-    "@commitlint/utils": "^17.4.0"
-  },
-  "dependencies": {
-    "conventional-changelog-conventionalcommits": "^5.0.0"
-  },
-  "gitHead": "70f7f4688b51774e7ac5e40e896cdaa3f132b2bc"
+  "files": [
+    "index.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }
