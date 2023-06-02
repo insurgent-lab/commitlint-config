@@ -1,7 +1,7 @@
-# Change Log
 
-All notable changes to this project will be documented in this file.
-See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+-----
+
+The CHANGELOG below was generated before this repository was forked from [conventional-changelog/commitlint](https://github.com/conventional-changelog/commitlint/tree/v17.6.5/@commitlint/config-conventional).
 
 ## [17.6.5](https://github.com/conventional-changelog/commitlint/compare/v17.6.4...v17.6.5) (2023-05-30)
 
