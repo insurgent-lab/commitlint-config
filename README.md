@@ -1,22 +1,22 @@
 > Lint your conventional commits
 
-# @commitlint/config-conventional
+# @insurgentlab/commitlint-config
 
-Shareable `commitlint` config enforcing [conventional commits](https://conventionalcommits.org/).
-Use with [@commitlint/cli](https://npm.im/@commitlint/cli) and [@commitlint/prompt-cli](https://npm.im/@commitlint/prompt-cli).
+Shareable `commitlint` config enforcing [conventional commits](https://conventionalcommits.org/) with rules from [@insurgentlab/conventional-changelog-preset](https://github.com/insurgent-lab/conventional-changelog-preset).
+Use with [@commitlint/cli](https://www.npmjs.com/@commitlint/cli) and [@commitlint/prompt-cli](https://www.npmjs.com/@commitlint/prompt-cli).
 
 ## Getting started
 
 ```sh
-npm install --save-dev @commitlint/config-conventional @commitlint/cli
-echo "module.exports = {extends: ['@commitlint/config-conventional']};" > commitlint.config.js
+npm install --save-dev @insurgentlab/commitlint-config @commitlint/cli
+echo '{"extends": ["@insurgentlab/commitlint-config"]}' > .commitlintrc
 ```
 
 ## Rules
 
 ### Problems
 
-The following rules are considered problems for `@commitlint/config-conventional` and will yield a non-zero exit code when not met.
+The following rules are considered problems for `@insurgentlab/commitlint-config` and will yield a non-zero exit code when not met.
 
 Consult [docs/rules](https://conventional-changelog.github.io/commitlint/#/reference-rules) for a list of available rules.
 
