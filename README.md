@@ -5,9 +5,6 @@
 [![Codecov](https://codecov.io/gh/insurgent-lab/commitlint-config/branch/main/graph/badge.svg)](https://codecov.io/gh/insurgent-lab/commitlint-config)
 [![Renovate](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://github.com/insurgent-lab/commitlint-config/issues/3)
 
-[conventional-changelog](https://github.com/conventional-changelog/conventional-changelog) preset built from a list of [conventional commit types](src/types.js) (similar to [conventional-commit-types](https://github.com/commitizen/conventional-commit-types)).
-Also provides [release rules](https://github.com/semantic-release/commit-analyzer#releaserules) configuration for [@semantic-release/commit-analyzer](https://github.com/semantic-release/commit-analyzer#releaserules).
-
 Shareable [`commitlint`](https://github.com/conventional-changelog/commitlint) config enforcing [conventional commits](https://conventionalcommits.org/) with rules from [@insurgentlab/conventional-changelog-preset](https://github.com/insurgent-lab/conventional-changelog-preset).
 Use with [@commitlint/cli](https://www.npmjs.com/package/@commitlint/cli) and [@commitlint/prompt-cli](https://www.npmjs.com/package/@commitlint/prompt-cli).
 
