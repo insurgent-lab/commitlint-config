@@ -16,7 +16,7 @@
     "release": "semantic-release"
   },
   "engines": {
-    "node": ">=v14"
+    "node": ">=v16"
   },
   "dependencies": {
     "conventional-changelog-conventionalcommits": "^5.0.0"
