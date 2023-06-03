@@ -1,7 +1,7 @@
 {
   "repositoryUrl": "git@github.com:insurgent-lab/commitlint-config.git",
   "branches": [
-    "master"
+    "main"
   ],
   "tagFormat": "v${version}",
   "plugins": [
