@@ -12,7 +12,7 @@
     "lint:prettier": "prettier ./**/*.{json,md,yml} --check",
     "lint": "npm run lint:eslint && npm run lint:prettier",
     "lint:fix": "npm run lint:eslint -- --fix && npm run lint:prettier -- --write",
-    "test": "jest",
+    "test": "jest --coverage",
     "release": "semantic-release"
   },
   "engines": {
