@@ -1,9 +1,15 @@
-> Lint your conventional commits
+# **Insurgent Lab's commitlint configuration**
 
-# @insurgentlab/commitlint-config
+[![npm](https://img.shields.io/npm/v/@insurgentlab/commitlint-config)](https://www.npmjs.com/package/@insurgentlab/commitlint-config)
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/insurgent-lab/commitlint-config/release.yml?branch=main)](https://github.com/insurgent-lab/commitlint-config/actions/workflows/release.yml)
+[![Codecov](https://codecov.io/gh/insurgent-lab/commitlint-config/branch/main/graph/badge.svg)](https://codecov.io/gh/insurgent-lab/commitlint-config)
+[![Renovate](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://github.com/insurgent-lab/commitlint-config/issues/5)
 
-Shareable `commitlint` config enforcing [conventional commits](https://conventionalcommits.org/) with rules from [@insurgentlab/conventional-changelog-preset](https://github.com/insurgent-lab/conventional-changelog-preset).
-Use with [@commitlint/cli](https://www.npmjs.com/@commitlint/cli) and [@commitlint/prompt-cli](https://www.npmjs.com/@commitlint/prompt-cli).
+[conventional-changelog](https://github.com/conventional-changelog/conventional-changelog) preset built from a list of [conventional commit types](src/types.js) (similar to [conventional-commit-types](https://github.com/commitizen/conventional-commit-types)).
+Also provides [release rules](https://github.com/semantic-release/commit-analyzer#releaserules) configuration for [@semantic-release/commit-analyzer](https://github.com/semantic-release/commit-analyzer#releaserules).
+
+Shareable [`commitlint`](https://github.com/conventional-changelog/commitlint) config enforcing [conventional commits](https://conventionalcommits.org/) with rules from [@insurgentlab/conventional-changelog-preset](https://github.com/insurgent-lab/conventional-changelog-preset).
+Use with [@commitlint/cli](https://www.npmjs.com/package/@commitlint/cli) and [@commitlint/prompt-cli](https://www.npmjs.com/package/@commitlint/prompt-cli).
 
 ## Getting started
 
