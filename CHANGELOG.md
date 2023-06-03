@@ -1,3 +1,47 @@
+## [18.0.0](https://github.com/insurgent-lab/commitlint-config/compare/v17.6.5...v18.0.0) (2023-06-03)
+
+
+### ⚠ Breaking changes
+
+* change preset to `@insurgentlab/conventional-changelog-preset`
+* require Node.js => 16
+
+### ✨ Features
+
+* change preset to `[@insurgentlab](https://github.com/insurgentlab)/conventional-changelog-preset` ([ee4809a](https://github.com/insurgent-lab/commitlint-config/commit/ee4809a5a5c4c2c6d5b2d937079e5377602d80b7))
+
+
+### 🚨 Tests
+
+* enable and improve tests ([89709d5](https://github.com/insurgent-lab/commitlint-config/commit/89709d5606f48a670d7a5ce36dfd54380788802b))
+* upload coverage to codecov ([92434bc](https://github.com/insurgent-lab/commitlint-config/commit/92434bcc94e0d2b0974c746c54bc8595d594ffb6))
+
+
+### ⚙️ Continuous Integrations
+
+* add test & release workflows ([a0fb8a7](https://github.com/insurgent-lab/commitlint-config/commit/a0fb8a761e9279f16015feb21cdfc8f83400a833))
+
+
+### ♻️ Chores
+
+* add .gitignore ([63dedd3](https://github.com/insurgent-lab/commitlint-config/commit/63dedd3550dcbd241a3b8ec7c86bea2f55824562))
+* add codeowners ([e771125](https://github.com/insurgent-lab/commitlint-config/commit/e77112581cc764bc00e861755575591878bb25e9))
+* add semantic-release ([a1c9479](https://github.com/insurgent-lab/commitlint-config/commit/a1c94795856ae8f3728b8a853b09dd7fd68c4616))
+* configure Renovate ([#2](https://github.com/insurgent-lab/commitlint-config/issues/2)) ([5c5ff83](https://github.com/insurgent-lab/commitlint-config/commit/5c5ff8325d2f6006c552b05513d0fce247c3b1ea))
+* drop support for unmaintained node versions ([96fae1a](https://github.com/insurgent-lab/commitlint-config/commit/96fae1aa5d3e94d17ad7b495a4a8f84d2f102669))
+* fix release branch configuration ([826cf69](https://github.com/insurgent-lab/commitlint-config/commit/826cf69bafcc5176bd108e96c11c84acc814449a))
+* **readme:** add badges and some links ([44343c1](https://github.com/insurgent-lab/commitlint-config/commit/44343c1353274755aeeb9b92150f1df421fd6a17))
+* **readme:** remove text copied by mistake ([b96bc0f](https://github.com/insurgent-lab/commitlint-config/commit/b96bc0f9a64f7d6501725cfc594b51ca70a5ef18))
+* remove tsconfig.json ([5c88a04](https://github.com/insurgent-lab/commitlint-config/commit/5c88a04ad8ae29c2fbf5b5bb123decb12ea07c6e))
+* update changelog ([cfe3d8e](https://github.com/insurgent-lab/commitlint-config/commit/cfe3d8e931c7f0ab5e39d1f9145dbc6a0749ee99))
+* update license ([046c0c5](https://github.com/insurgent-lab/commitlint-config/commit/046c0c5e3d02739eafb8c30ac3568fefa825d965))
+* update package.json ([355e6f2](https://github.com/insurgent-lab/commitlint-config/commit/355e6f2fb082226454a8020b9f93e0d967e1cc3a))
+* update readme ([afc3185](https://github.com/insurgent-lab/commitlint-config/commit/afc3185159098acc123add7759973fbd4b5cb466))
+
+
+### 💎 Styles
+
+* add eslint & prettier ([6b02da4](https://github.com/insurgent-lab/commitlint-config/commit/6b02da4214797ee8e6a04e6590fa4de70c5faeac))
 
 -----
 
