@@ -1,5 +1,6 @@
-import lint from '@commitlint/lint';
-import {rules, parserPreset} from '.';
+const lint = require('@commitlint/lint').default;
+const { parserPreset, rules } = require('.');
+const types = rules['type-enum'][2];
 
 const commitLint = async (message) => {
 	const preset = await require(parserPreset)();
@@ -40,8 +41,7 @@ const messages = {
 const errors = {
 	typeEnum: {
 		level: 2,
-		message:
-			'type must be one of [build, chore, ci, docs, feat, fix, perf, refactor, revert, style, test]',
+		message: `type must be one of [${types.join(', ')}]`,
 		name: 'type-enum',
 		valid: false,
 	},
@@ -112,11 +112,25 @@ const warnings = {
 	},
 };
 
-test('type-enum', async () => {
-	const result = await commitLint(messages.invalidTypeEnum);
+describe('type-enum', () => {
+	it('should accept valid commit types', async () => {
+		const validInputs = await Promise.all(
+			types.map((type) => commitLint(`${type}: some message`))
+		);
+	
+		validInputs.forEach((result) => {
+			expect(result.valid).toBe(true);
+			expect(result.errors).toEqual([]);
+			expect(result.warnings).toEqual([]);
+		});
+	});
 
-	expect(result.valid).toBe(false);
-	expect(result.errors).toEqual([errors.typeEnum]);
+	it('should reject invalid commit types', async () => {
+		const invalidInput = await commitLint(messages.invalidTypeEnum);
+
+		expect(invalidInput.valid).toBe(false);
+		expect(invalidInput.errors).toEqual([errors.typeEnum]);
+	});
 });
 
 test('type-case', async () => {
