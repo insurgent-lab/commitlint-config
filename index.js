@@ -1,5 +1,5 @@
 module.exports = {
-  parserPreset: 'conventional-changelog-conventionalcommits',
+  parserPreset: '@insurgentlab/conventional-changelog-preset',
   rules: {
     'body-leading-blank': [1, 'always'],
     'body-max-line-length': [2, 'always', 100],
