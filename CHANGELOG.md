@@ -1,3 +1,19 @@
+## [18.0.1](https://github.com/insurgent-lab/commitlint-config/compare/v18.0.0...v18.0.1) (2023-06-19)
+
+
+### 🐛 Bug Fixes
+
+* **deps:** update dependency [@insurgentlab](https://github.com/insurgentlab)/conventional-changelog-preset to v6.0.2 ([#12](https://github.com/insurgent-lab/commitlint-config/issues/12)) ([fd2e71c](https://github.com/insurgent-lab/commitlint-config/commit/fd2e71c735a74bd6949a2c64f915f01889cd6962))
+
+
+### ♻️ Chores
+
+* **deps:** lock file maintenance ([#13](https://github.com/insurgent-lab/commitlint-config/issues/13)) ([9b0ff72](https://github.com/insurgent-lab/commitlint-config/commit/9b0ff72f4bd8174dc5cad294055fab76ec85bc98))
+* **deps:** pin exact dependencies [skip ci] ([3fc51c2](https://github.com/insurgent-lab/commitlint-config/commit/3fc51c2809861f746ac11176f5c789cca07bccf5))
+* **deps:** update semantic-release monorepo ([45e5e4b](https://github.com/insurgent-lab/commitlint-config/commit/45e5e4b5d9d078da8223ea506a229efb79791136))
+* **readme:** add Snyk badge ([67c4123](https://github.com/insurgent-lab/commitlint-config/commit/67c41235a320300d531756acb55ff7162babfdae))
+* update renovate.json ([e03a44b](https://github.com/insurgent-lab/commitlint-config/commit/e03a44babd8bc2a0aeaf40ab8d4041d58a55fcca))
+
 ## [18.0.0](https://github.com/insurgent-lab/commitlint-config/compare/v17.6.5...v18.0.0) (2023-06-03)
 
 
