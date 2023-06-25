@@ -33,6 +33,8 @@ module.exports = {
       ],
     ],
   },
+  helpUrl:
+    'https://github.com/insurgent-lab/conventional-changelog-preset#commit-types',
   prompt: {
     questions: {
       type: {
