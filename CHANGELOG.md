@@ -1,3 +1,16 @@
+## [18.1.0](https://github.com/insurgent-lab/commitlint-config/compare/v18.0.1...v18.1.0) (2023-06-25)
+
+
+### ✨ Features
+
+* add "get help" url ([e5a1420](https://github.com/insurgent-lab/commitlint-config/commit/e5a1420819fa716696240c193cb125da9502b633))
+
+
+### ♻️ Chores
+
+* **deps:** update dependency eslint to v8.43.0 ([#15](https://github.com/insurgent-lab/commitlint-config/issues/15)) ([c8ef9aa](https://github.com/insurgent-lab/commitlint-config/commit/c8ef9aa342511743b4d1480635c96bdc9f5b1bd6))
+* **deps:** update dependency eslint-plugin-jest to v27.2.2 ([90589d7](https://github.com/insurgent-lab/commitlint-config/commit/90589d74893a030f85c5b0e2a35dad1fd6df3e0d))
+
 ## [18.0.1](https://github.com/insurgent-lab/commitlint-config/compare/v18.0.0...v18.0.1) (2023-06-19)
 
 
