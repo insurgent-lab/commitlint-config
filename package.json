@@ -22,7 +22,7 @@
     "@insurgentlab/conventional-changelog-preset": "6.0.2"
   },
   "devDependencies": {
-    "@commitlint/lint": "17.6.5",
+    "@commitlint/lint": "17.6.6",
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/commit-analyzer": "10.0.1",
     "@semantic-release/git": "10.0.1",
