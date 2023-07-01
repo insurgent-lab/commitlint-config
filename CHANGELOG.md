@@ -1,3 +1,16 @@
+## [18.1.1](https://github.com/insurgent-lab/commitlint-config/compare/v18.1.0...v18.1.1) (2023-07-01)
+
+
+### 🐛 Bug Fixes
+
+* **deps:** update dependency [@insurgentlab](https://github.com/insurgentlab)/conventional-changelog-preset to v6.0.3 ([#18](https://github.com/insurgent-lab/commitlint-config/issues/18)) ([74508ac](https://github.com/insurgent-lab/commitlint-config/commit/74508ac4e3f59db976d0b3615f21349164cbc763))
+
+
+### ♻️ Chores
+
+* **deps:** lock file maintenance ([6faf8eb](https://github.com/insurgent-lab/commitlint-config/commit/6faf8ebe203aeb6844c6f0693945d54f50207007))
+* **deps:** update dependency [@commitlint](https://github.com/commitlint)/lint to v17.6.6 ([99717d4](https://github.com/insurgent-lab/commitlint-config/commit/99717d4193d7394182e32737a7e2cbdf32062d1e))
+
 ## [18.1.0](https://github.com/insurgent-lab/commitlint-config/compare/v18.0.1...v18.1.0) (2023-06-25)
 
 
