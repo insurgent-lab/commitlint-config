@@ -1,7 +1,7 @@
 {
   "name": "@insurgentlab/commitlint-config",
   "description": "Commitlint config for @insurgentlab/conventional-changelog-preset",
-  "version": "18.1.1",
+  "version": "18.1.2",
   "author": "Mario Nebl <hello@herebecode.com>",
   "maintainers": [
     "Pierre Cavin <me@sherlox.io>"
