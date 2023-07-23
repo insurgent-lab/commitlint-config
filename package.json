@@ -19,7 +19,7 @@
     "node": ">=v16"
   },
   "dependencies": {
-    "@insurgentlab/conventional-changelog-preset": "6.0.3"
+    "@insurgentlab/conventional-changelog-preset": "^6.0.3"
   },
   "devDependencies": {
     "@commitlint/lint": "17.6.7",
