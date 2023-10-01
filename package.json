@@ -13,6 +13,7 @@
     "lint": "npm run lint:eslint && npm run lint:prettier",
     "lint:fix": "npm run lint:eslint -- --fix && npm run lint:prettier -- --write",
     "test": "jest --coverage",
+    "test:commitlint": "commitlint --from HEAD~1 --to HEAD --verbose",
     "release": "semantic-release"
   },
   "engines": {
@@ -22,7 +23,9 @@
     "@insurgentlab/conventional-changelog-preset": "^6.0.3"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.7.2",
     "@commitlint/lint": "17.7.0",
+    "@insurgentlab/commitlint-config": "file:./",
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/commit-analyzer": "10.0.4",
     "@semantic-release/git": "10.0.1",
