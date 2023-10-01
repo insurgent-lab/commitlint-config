@@ -1,3 +1,71 @@
+## [18.1.3](https://github.com/insurgent-lab/commitlint-config/compare/v18.1.2...v18.1.3) (2023-10-01)
+
+
+### 🛠 Builds
+
+* **deps:** update dependency [@insurgentlab](https://github.com/insurgentlab)/conventional-changelog-preset to v7 ([2c84c4a](https://github.com/insurgent-lab/commitlint-config/commit/2c84c4a0a990493078546eaff2c1aac3232c7776))
+
+
+### 🚨 Tests
+
+* await updated preset interface ([e080e22](https://github.com/insurgent-lab/commitlint-config/commit/e080e2232f7ad564f6570288e5a16625a7931d07))
+* ensure commitlint preset compatibility ([9a514df](https://github.com/insurgent-lab/commitlint-config/commit/9a514df9349fdb3ee2f8e2788b0c37e97c5c28f2))
+
+
+### ⚙️ Continuous Integrations
+
+* **action:** update actions/checkout action to v4 ([#63](https://github.com/insurgent-lab/commitlint-config/issues/63)) ([4256e4b](https://github.com/insurgent-lab/commitlint-config/commit/4256e4b2fb14447c823c96fa304322cb4e9928ea))
+* **action:** update actions/checkout digest to 8ade135 ([#75](https://github.com/insurgent-lab/commitlint-config/issues/75)) ([9f3fb6a](https://github.com/insurgent-lab/commitlint-config/commit/9f3fb6ad949f9150f3a91c8d0612c90887a3013c))
+* **action:** update actions/checkout digest to f43a0e5 ([#51](https://github.com/insurgent-lab/commitlint-config/issues/51)) ([39792cc](https://github.com/insurgent-lab/commitlint-config/commit/39792ccec3cfc5cd2e50074dd99da6b82363a618))
+* **action:** update actions/setup-node digest to 5e21ff4 ([#47](https://github.com/insurgent-lab/commitlint-config/issues/47)) ([a484fc4](https://github.com/insurgent-lab/commitlint-config/commit/a484fc4c749fb330ef4d608c9c48254ce928f2df))
+* **action:** update actions/setup-node digest to bea5baf ([#45](https://github.com/insurgent-lab/commitlint-config/issues/45)) ([97b3730](https://github.com/insurgent-lab/commitlint-config/commit/97b37301cb52cf8b6b42f5e8600e31f9add25feb))
+* **action:** use node lts in workflows ([e089cd2](https://github.com/insurgent-lab/commitlint-config/commit/e089cd2313502548dce139cc1b95cf4cb13fc846))
+
+
+### ♻️ Chores
+
+* **deps:** lock file maintenance ([913da38](https://github.com/insurgent-lab/commitlint-config/commit/913da384deb271891141b6f99187d34ab7e5f066))
+* **deps:** lock file maintenance ([129b2f5](https://github.com/insurgent-lab/commitlint-config/commit/129b2f5d050fd07ad634be378063fadda647506d))
+* **deps:** lock file maintenance ([6a4d76a](https://github.com/insurgent-lab/commitlint-config/commit/6a4d76a096324c2f77071f706f7fab8f971ea40d))
+* **deps:** lock file maintenance ([c63ae90](https://github.com/insurgent-lab/commitlint-config/commit/c63ae902e728514374e6afb6ddc94a3db0798506))
+* **deps:** lock file maintenance ([b7e96c8](https://github.com/insurgent-lab/commitlint-config/commit/b7e96c8edb56f45b3e96a69037ddf657d508543b))
+* **deps:** lock file maintenance ([73806c2](https://github.com/insurgent-lab/commitlint-config/commit/73806c22543dcd075fdb9caf1143934aab767c1e))
+* **deps:** lock file maintenance ([f0ee8c1](https://github.com/insurgent-lab/commitlint-config/commit/f0ee8c168c582d57ff9553b691d44feb242f3b28))
+* **deps:** lock file maintenance ([4f6d983](https://github.com/insurgent-lab/commitlint-config/commit/4f6d98389a627ea28a0b85cecccd18fa427f5b75))
+* **deps:** lock file maintenance ([01c943e](https://github.com/insurgent-lab/commitlint-config/commit/01c943e8b7f6148738e3ed356cc94a9da5af2ee2))
+* **deps:** lock file maintenance ([97a2237](https://github.com/insurgent-lab/commitlint-config/commit/97a2237741260bde38b993cd8d0b6e675507f1b1))
+* **deps:** lock file maintenance ([3963ace](https://github.com/insurgent-lab/commitlint-config/commit/3963ace2b0f232fe8475582ccf4eb9dc37007f29))
+* **deps:** update dependency [@commitlint](https://github.com/commitlint)/lint to v17.7.0 ([17a2eb0](https://github.com/insurgent-lab/commitlint-config/commit/17a2eb03cf57453774b01ee81a77630a1b03422e))
+* **deps:** update dependency [@semantic-release](https://github.com/semantic-release)/github to v9.0.5 ([596db67](https://github.com/insurgent-lab/commitlint-config/commit/596db67d90c36a466078be8d3c5bf585253c747c))
+* **deps:** update dependency [@semantic-release](https://github.com/semantic-release)/github to v9.0.7 ([18e1bf8](https://github.com/insurgent-lab/commitlint-config/commit/18e1bf84501971e6e6009c390ba7ab3e209adb5b))
+* **deps:** update dependency [@semantic-release](https://github.com/semantic-release)/github to v9.1.0 ([96cab0e](https://github.com/insurgent-lab/commitlint-config/commit/96cab0e6baddf72199a55ac3679f4a10cff0abeb))
+* **deps:** update dependency [@semantic-release](https://github.com/semantic-release)/github to v9.2.0 ([3626118](https://github.com/insurgent-lab/commitlint-config/commit/36261183d96e0996697fe714516803b60592689e))
+* **deps:** update dependency [@semantic-release](https://github.com/semantic-release)/github to v9.2.1 ([5385ee3](https://github.com/insurgent-lab/commitlint-config/commit/5385ee335314e4759f2c3a2223e1a7760755030e))
+* **deps:** update dependency eslint to v8.46.0 ([a0a3439](https://github.com/insurgent-lab/commitlint-config/commit/a0a343979b12973a3665908c42e9d3a96f212764))
+* **deps:** update dependency eslint to v8.47.0 ([d3c62ed](https://github.com/insurgent-lab/commitlint-config/commit/d3c62edc6837a9a07fe63f229c5b01db62875054))
+* **deps:** update dependency eslint to v8.48.0 ([cc4d32e](https://github.com/insurgent-lab/commitlint-config/commit/cc4d32e849c8123567cf46d61b46b1bf9f03dce6))
+* **deps:** update dependency eslint to v8.49.0 ([deb5f1d](https://github.com/insurgent-lab/commitlint-config/commit/deb5f1d1a4948581edf64950734f09ecab610a6e))
+* **deps:** update dependency eslint to v8.50.0 ([3960d36](https://github.com/insurgent-lab/commitlint-config/commit/3960d36786e38447295ce5f1e8d99bf9cf89db85))
+* **deps:** update dependency eslint-config-prettier to v8.9.0 ([58bedf2](https://github.com/insurgent-lab/commitlint-config/commit/58bedf263b4f5d5f5cd3cd69af66c86976a0098e))
+* **deps:** update dependency eslint-config-prettier to v9 ([#42](https://github.com/insurgent-lab/commitlint-config/issues/42)) ([68be9e6](https://github.com/insurgent-lab/commitlint-config/commit/68be9e64f662669859d183a1b62323214733271f))
+* **deps:** update dependency eslint-plugin-jest to v27.4.0 ([c9ae4e1](https://github.com/insurgent-lab/commitlint-config/commit/c9ae4e16a3f4bb911cb5291b864aba65069c0fa2))
+* **deps:** update dependency jest to v29.6.2 ([b9782dc](https://github.com/insurgent-lab/commitlint-config/commit/b9782dc395cdf4ed5c7d933a4cf3db248cf62e86))
+* **deps:** update dependency jest to v29.6.3 ([d095249](https://github.com/insurgent-lab/commitlint-config/commit/d095249413f614c0d20b1c60a70b160c08d3ad1d))
+* **deps:** update dependency jest to v29.6.4 ([21238e5](https://github.com/insurgent-lab/commitlint-config/commit/21238e555515b65954c14d026c77d45794b086d4))
+* **deps:** update dependency jest to v29.7.0 ([e5bc383](https://github.com/insurgent-lab/commitlint-config/commit/e5bc38370f4cb6af37217c37e1132a74ff15a24b))
+* **deps:** update dependency prettier to v3.0.2 ([19952c3](https://github.com/insurgent-lab/commitlint-config/commit/19952c321554fd9fc701907ae51996f87eec541c))
+* **deps:** update dependency prettier to v3.0.3 ([1aab4c2](https://github.com/insurgent-lab/commitlint-config/commit/1aab4c25d499befb98090b2972ca386c28b545cd))
+* **deps:** update dependency semantic-release to v21.1.0 ([64be14f](https://github.com/insurgent-lab/commitlint-config/commit/64be14faf93972ec43821091b5f8d3419450cb85))
+* **deps:** update dependency semantic-release to v21.1.1 ([4689aa8](https://github.com/insurgent-lab/commitlint-config/commit/4689aa8699cbe3720fc8b8fa89073f3485697ba4))
+* **deps:** update dependency semantic-release to v21.1.2 ([45778e2](https://github.com/insurgent-lab/commitlint-config/commit/45778e241b1e545ed2113e33f399b8906f0f5fe6))
+* **deps:** update linters ([102f446](https://github.com/insurgent-lab/commitlint-config/commit/102f446fe08819bc32e6fcdfa8e8814aebd39eb0))
+* **deps:** update semantic-release monorepo ([eac7bad](https://github.com/insurgent-lab/commitlint-config/commit/eac7bad69d6c19cce94131fbff8df38874b2922d))
+* **deps:** update semantic-release monorepo ([582260e](https://github.com/insurgent-lab/commitlint-config/commit/582260e0d54a7055f5bdef075a4203ba6fb708d2))
+* **deps:** update semantic-release monorepo ([fed2938](https://github.com/insurgent-lab/commitlint-config/commit/fed29384788e83a9a967be34ffae7ea076b91f97))
+* **deps:** update semantic-release monorepo ([f7af267](https://github.com/insurgent-lab/commitlint-config/commit/f7af26729006bbb852036487845c26ab460870ef))
+* **deps:** update semantic-release monorepo ([d4aef44](https://github.com/insurgent-lab/commitlint-config/commit/d4aef443809afd0e9d42e913536ceb881ee36cab))
+* **deps:** update semantic-release monorepo ([#73](https://github.com/insurgent-lab/commitlint-config/issues/73)) ([f302974](https://github.com/insurgent-lab/commitlint-config/commit/f302974c1b264f8d5540814cf6a6c1a4df93ee84))
+
 ## [18.1.2](https://github.com/insurgent-lab/commitlint-config/compare/v18.1.1...v18.1.2) (2023-07-23)
 
 
