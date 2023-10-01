@@ -3,7 +3,7 @@ const { parserPreset, rules } = require('.');
 const types = rules['type-enum'][2];
 
 const commitLint = async (message) => {
-  const preset = await require(parserPreset);
+  const preset = await await require(parserPreset)();
   return lint(message, rules, { ...preset });
 };
 
@@ -213,7 +213,6 @@ test('valid messages', async () => {
   );
 
   validInputs.forEach((result) => {
-    if (!result.valid) console.debug(result);
     expect(result.valid).toBe(true);
     expect(result.errors).toEqual([]);
     expect(result.warnings).toEqual([]);
