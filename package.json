@@ -13,8 +13,7 @@
     "lint": "npm run lint:eslint && npm run lint:prettier",
     "lint:fix": "npm run lint:eslint -- --fix && npm run lint:prettier -- --write",
     "test": "jest --coverage",
-    "test:commitlint": "commitlint --from HEAD~1 --to HEAD --verbose",
-    "release": "semantic-release"
+    "test:commitlint": "commitlint --from HEAD~1 --to HEAD --verbose"
   },
   "engines": {
     "node": ">=v16"
