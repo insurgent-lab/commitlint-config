@@ -3,7 +3,7 @@ const { parserPreset, rules } = require('.');
 const types = rules['type-enum'][2];
 
 const commitLint = async (message) => {
-  const preset = await await require(parserPreset)();
+  const preset = await parserPreset();
   return lint(message, rules, { ...preset });
 };
 
