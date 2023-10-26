@@ -1,6 +1,6 @@
 {
   "name": "@insurgent/commitlint-config",
-  "description": "Commitlint config for @insurgentlab/conventional-changelog-preset",
+  "description": "Commitlint config for @insurgent/conventional-changelog-preset",
   "version": "18.1.3",
   "author": "Mario Nebl <hello@herebecode.com>",
   "maintainers": [
@@ -19,7 +19,7 @@
     "node": ">=v16"
   },
   "dependencies": {
-    "@insurgentlab/conventional-changelog-preset": "^7.0.0"
+    "@insurgent/conventional-changelog-preset": "^8.0.0"
   },
   "devDependencies": {
     "@commitlint/cli": "18.0.0",

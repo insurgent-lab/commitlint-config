@@ -6,7 +6,7 @@
 [![Renovate](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://github.com/insurgent-lab/commitlint-config/issues/3)
 ![Snyk](https://img.shields.io/snyk/vulnerabilities/github/insurgent-lab/commitlint-config)
 
-Shareable [`commitlint`](https://github.com/conventional-changelog/commitlint) config enforcing [conventional commits](https://conventionalcommits.org/) with rules from [@insurgentlab/conventional-changelog-preset](https://github.com/insurgent-lab/conventional-changelog-preset).
+Shareable [`commitlint`](https://github.com/conventional-changelog/commitlint) config enforcing [conventional commits](https://conventionalcommits.org/) with rules from [@insurgent/conventional-changelog-preset](https://github.com/insurgent-lab/conventional-changelog-preset).
 Use with [@commitlint/cli](https://www.npmjs.com/package/@commitlint/cli) and [@commitlint/prompt-cli](https://www.npmjs.com/package/@commitlint/prompt-cli).
 
 ## Getting started
