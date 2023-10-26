@@ -1,5 +1,5 @@
 {
-  "name": "@insurgentlab/commitlint-config",
+  "name": "@insurgent/commitlint-config",
   "description": "Commitlint config for @insurgentlab/conventional-changelog-preset",
   "version": "18.1.3",
   "author": "Mario Nebl <hello@herebecode.com>",
@@ -24,7 +24,7 @@
   "devDependencies": {
     "@commitlint/cli": "18.0.0",
     "@commitlint/lint": "18.0.0",
-    "@insurgentlab/commitlint-config": "file:./",
+    "@insurgent/commitlint-config": "file:./",
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/commit-analyzer": "11.0.0",
     "@semantic-release/git": "10.0.1",

@@ -1,6 +1,6 @@
 # **Insurgent Lab's commitlint configuration**
 
-[![npm](https://img.shields.io/npm/v/@insurgentlab/commitlint-config)](https://www.npmjs.com/package/@insurgentlab/commitlint-config)
+[![npm](https://img.shields.io/npm/v/@insurgent/commitlint-config)](https://www.npmjs.com/package/@insurgent/commitlint-config)
 [![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/insurgent-lab/commitlint-config/release.yml?branch=main)](https://github.com/insurgent-lab/commitlint-config/actions/workflows/release.yml)
 [![Codecov](https://codecov.io/gh/insurgent-lab/commitlint-config/branch/main/graph/badge.svg)](https://codecov.io/gh/insurgent-lab/commitlint-config)
 [![Renovate](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://github.com/insurgent-lab/commitlint-config/issues/3)
@@ -12,15 +12,15 @@ Use with [@commitlint/cli](https://www.npmjs.com/package/@commitlint/cli) and [@
 ## Getting started
 
 ```sh
-npm install --save-dev @insurgentlab/commitlint-config @commitlint/cli
-echo '{"extends": ["@insurgentlab/commitlint-config"]}' > .commitlintrc
+npm install --save-dev @insurgent/commitlint-config @commitlint/cli
+echo '{"extends": ["@insurgent/commitlint-config"]}' > .commitlintrc
 ```
 
 ## Rules
 
 ### Problems
 
-The following rules are considered problems for `@insurgentlab/commitlint-config` and will yield a non-zero exit code when not met.
+The following rules are considered problems for `@insurgent/commitlint-config` and will yield a non-zero exit code when not met.
 
 Consult [docs/rules](https://conventional-changelog.github.io/commitlint/#/reference-rules) for a list of available rules.
 
