@@ -22,8 +22,8 @@
     "@insurgent/conventional-changelog-preset": "^8.0.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "18.0.0",
-    "@commitlint/lint": "18.0.0",
+    "@commitlint/cli": "18.1.0",
+    "@commitlint/lint": "18.1.0",
     "@insurgent/commitlint-config": "file:./",
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/commit-analyzer": "11.0.0",
