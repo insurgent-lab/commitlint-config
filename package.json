@@ -7,12 +7,13 @@
     "Pierre Cavin <me@sherlox.io>"
   ],
   "license": "MIT",
+  "type": "module",
   "scripts": {
     "lint:eslint": "eslint . --ext .js",
     "lint:prettier": "prettier ./**/*.{json,md,yml} --check",
     "lint": "npm run lint:eslint && npm run lint:prettier",
     "lint:fix": "npm run lint:eslint -- --fix && npm run lint:prettier -- --write",
-    "test": "jest --coverage",
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest --coverage",
     "test:commitlint": "commitlint --from HEAD~1 --to HEAD --verbose"
   },
   "engines": {
@@ -31,6 +32,7 @@
     "@semantic-release/github": "9.2.3",
     "@semantic-release/npm": "11.0.1",
     "@semantic-release/release-notes-generator": "12.1.0",
+    "cross-env": "^7.0.3",
     "eslint": "8.53.0",
     "eslint-config-prettier": "9.0.0",
     "eslint-plugin-jest": "27.6.0",
