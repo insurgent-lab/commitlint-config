@@ -1,10 +1,10 @@
-const lint = require('@commitlint/lint').default;
-const { parserPreset, rules } = require('.');
+import lint from '@commitlint/lint';
+import { parserPreset, rules } from './index.js';
 const types = rules['type-enum'][2];
 
 const commitLint = async (message) => {
   const preset = await parserPreset();
-  return lint(message, rules, { ...preset });
+  return lint.default(message, rules, { ...preset });
 };
 
 const messages = {
