@@ -30,6 +30,7 @@ const messages = {
     'fix: some message\n\nbody with multiple lines\nhas a message that is way too long and will break the line rule "line-max-length" by several characters',
   validMessages: [
     'fix: some message',
+    'refactor!: some message',
     'fix(scope): some message',
     'fix(scope): some Message',
     'fix(scope): some message\n\nBREAKING CHANGE: it will be significant!',
