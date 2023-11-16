@@ -1,5 +1,7 @@
-module.exports = {
-  parserPreset: require('@insurgent/conventional-changelog-preset'),
+import createPreset from '@insurgent/conventional-changelog-preset';
+
+const commitLintConfig = {
+  parserPreset: createPreset,
   rules: {
     'body-leading-blank': [1, 'always'],
     'body-max-line-length': [2, 'always', 100],
@@ -135,3 +137,8 @@ module.exports = {
     },
   },
 };
+
+export default commitLintConfig;
+
+export const parserPreset = commitLintConfig.parserPreset;
+export const rules = commitLintConfig.rules;
