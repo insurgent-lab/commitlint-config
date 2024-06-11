@@ -42,6 +42,18 @@
     "prettier": "3.3.1",
     "semantic-release": "24.0.0"
   },
+  "peerDependencies": {
+    "@commitlint/cli": ">= 19.0.0",
+    "@commitlint/lint": ">= 19.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@commitlint/cli": {
+      "optional": true
+    },
+    "@commitlint/lint": {
+      "optional": true
+    }
+  },
   "homepage": "https://github.com/insurgent-lab/commitlint-config#readme",
   "repository": {
     "type": "git",
