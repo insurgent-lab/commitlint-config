@@ -1,4 +1,4 @@
-import createPreset from '@insurgent/conventional-changelog-preset';
+import createPreset from 'conventional-changelog-conventionalcommits';
 
 const commitLintConfig = {
   parserPreset: createPreset,
