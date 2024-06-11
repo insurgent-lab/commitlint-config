@@ -4,7 +4,7 @@ const types = rules['type-enum'][2];
 
 const commitLint = async (message) => {
   const preset = await parserPreset();
-  return lint.default(message, rules, { ...preset });
+  return lint(message, rules, { ...preset });
 };
 
 const messages = {
