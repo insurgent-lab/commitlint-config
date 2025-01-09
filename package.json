@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "@insurgent/conventional-changelog-preset": "^10.0.0",
-    "conventional-changelog-conventionalcommits": "^7.0.2"
+    "conventional-changelog-conventionalcommits": "^8.0.0"
   },
   "devDependencies": {
     "@commitlint/cli": "19.6.1",
